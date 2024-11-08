@@ -6,18 +6,12 @@
 - [ ] [IO](../paves/basics/io.md)
 - [ ] [Array](../paves/basics/array.md)
 - [ ] [String](../paves/basics/string.md)
-- [ ] [Struct](../paves/basics/array.md)
-- [ ] [Array](../paves/basics/array.md)
-- [ ] [Array](../paves/basics/array.md)
-- [ ] [Array](../paves/basics/array.md)
-- [ ] [Array](../paves/basics/array.md)
-- [ ] [Array](../paves/basics/array.md)
-- [ ] [Array](../paves/basics/array.md)
-- [ ] [Array](../paves/basics/array.md)
+- [ ] [Struct](../paves/basics/struct.md)
 
-## Code Arrangement
-
+- [ ] [Code Arrangement](../paves/tips/code_arrangement.md)
 模块化，虽然形式上不是面向对象编程，但是思想上要有对功能的封装
+- [ ] [Sorting](../paves/algorithms/sorting.md)
+
 
 ## Sorting
 
