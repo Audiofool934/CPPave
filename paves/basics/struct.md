@@ -100,6 +100,18 @@ for (int i = 0; i < 3; i++) {
 }
 ```
 
+使用 `typedef` 关键字定义结构体类型的别名：
+
+```c
+typedef struct Student {
+    char name[50];
+    int age;
+    float grade;
+} Student;
+
+Student student1 = {"Alice", 20, 85.5};
+```
+
 ### 结构体指针
 
 可以使用指针指向结构体变量，使用 `->` 运算符来访问结构体成员。

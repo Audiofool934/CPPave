@@ -16,6 +16,7 @@ int main() {
                 min = tmp;
         }
     }
+    
     printf("%d", min);
     return 0;
 }
