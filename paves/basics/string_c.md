@@ -8,10 +8,17 @@
 char str[] = "CPPave";
 ```
 
-### 字符串操作
+### string.h
 
 `strcmp(s1, s2)` // 有的时候会简化很多！
 如果 `s1` 和 `s2` <span style="color:red">相同，则返回 0</span>；如果 `s1`<`s2` 则返回小于 0；如果 `s1`>`s2` 则返回大于 0（这里字符串比较按照<span style="color:red">字典顺序</span>）
+
+`strncmp(s1, s2, n)` // 比较前 n 个字符
+比较`s1`, `s2` 中 `[a, a + n]` 内的字符串:
+    
+```c
+strncmp(s1+a, s2+a, n)
+```
 
 `strcpy(s1, s2)`
 复制字符串 `s2` 到字符串 `s1`
