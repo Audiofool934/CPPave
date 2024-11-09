@@ -42,6 +42,7 @@ math 才是越学越难
 
 ## Algorithm
 
+- [ ] [Utility](paves/algorithms/utility.md)
 - [ ] [Time Complexity](paves/algorithms/time_complexity.md)
 - [ ] [Sorting](paves/algorithms/sorting.md)
 - [ ] [Searching](paves/algorithms/searching.md)

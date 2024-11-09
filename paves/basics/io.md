@@ -26,8 +26,9 @@ return 0;
 读取一行（最后有回车）：
 
 ```c 
+int c;
 while ((c = getchar()) != '\n') {
-    putchar(c);
+    // putchar(c);
 }
 ```
 
@@ -39,7 +40,7 @@ while ((c = getchar()) != '\n') {
 ```c
 int c;
 while ((c = getchar()) != EOF) {
-    putchar(c);
+    // putchar(c);
 }
 ```
 

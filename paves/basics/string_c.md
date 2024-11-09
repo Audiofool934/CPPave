@@ -15,7 +15,7 @@ char str[] = "CPPave";
 
 `strncmp(s1, s2, n)` // 比较前 n 个字符
 比较`s1`, `s2` 中 `[a, a + n]` 内的字符串:
-    
+
 ```c
 strncmp(s1+a, s2+a, n)
 ```
