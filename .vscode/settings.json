@@ -59,6 +59,10 @@
         "__config": "cpp",
         "stdlib.h": "c",
         "string.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "concepts": "c",
+        "functional": "c",
+        "iterator": "c",
+        "utility": "c"
     }
 }

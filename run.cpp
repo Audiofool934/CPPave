@@ -1,50 +1,53 @@
 #include <stdio.h>
-#include <algorithm>
-using namespace std;
-
-struct number {
-	long long int origin;
-	int times;
-	long long int huiwen;
+#include <math.h>
+#include <string.h>
+#include <stdlib.h>
+struct num
+{
+	long long int a;
+	long long int ci;
+	long long int last;
+	long long int cun;
 };
+int cmp(const void*c,const void*b)
+{   
+    struct num *num1=(struct num*)c;
+    struct num *num2=(struct num*)b;
+    if(num1->ci!=num2->ci)
+	    return num2->ci-num1->ci;
+	else if (num1->last!=num2->last)
+	    return num1->last-num2->last;
+	    else return num1->a-num2->a;
+}   
 
-long long int diedai(long long int a) {
-	long long int result = 0;
-	while (a != 0) {
-		result = result * 10 + a % 10;
-		a = a / 10;
-	}
-	return result;
-}
-
-bool cmp(number a, number b) {
-	if (a.times > b.times) {
-		return true;
-	} else if (a.times == b.times && a.huiwen < b.huiwen) {
-		return true;
-	} else if (a.times == b.times && a.huiwen == b.huiwen && a.origin < b.origin) {
-		return true;
-	} else {
-		return false;
-	}
-}
-
-int main(void) {
-	struct number num[10];
-	for (int i = 0; i < 10; i++) {
-		scanf("%lld", &num[i].origin);
-		num[i].huiwen = num[i].origin;
-		int t = 0;
-		while (diedai(num[i].huiwen) != num[i].huiwen) {
-			t += 1;
-			num[i].huiwen = diedai(num[i].huiwen) + num[i].huiwen;
-		}
-		num[i].times = t;
-	}
-	sort(num, num + 10, cmp);
-	for (int i = 0; i < 10; i++) {
-		printf("%lld %d %lld\n", num[i].origin, num[i].times, num[i].huiwen);
+int main()
+{
+	struct num shu[10];
+	long long int i,j;
+	long long int sum=0,tmp;
+	for(i=0;i<10;i++)
+	{scanf("%lld",&shu[i].a);
 	}
 
+    for(i=0;i<10;i++)
+    {    shu[i].cun=shu[i].a;
+    	   for(;;)
+		   {   
+		   tmp=shu[i].cun;
+		   sum=0;
+		   while(tmp!=0)
+		   {sum=sum*10+tmp%10;
+		   tmp=tmp/10;
+		   }
+    		if(sum!=shu[i].cun) {
+			shu[i].cun+=sum;shu[i].ci++;}
+    		else {
+			shu[i].last=sum;break;}
+		    }
+    } 
+
+qsort(shu,10,sizeof(struct num),cmp);
+    for(i=0;i<10;i++)
+     printf("%lld %lld %lld\n",shu[i].a,shu[i].ci,shu[i].last);
 	return 0;
 }

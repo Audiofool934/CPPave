@@ -30,7 +30,7 @@ int main() {
         scanf("%d", &n);
         if (n == 0) break;
         cn = 1;
-        for (int m = cbrt(n); m >= 1; m--) { // 经验上界
+        for (int m = sqrt(n); m >= 1; m--) { // 经验上界
             // 遍历所有可能的m值，找到一个合适的m值就输出并跳出循环
             if (check(n, m)) {
                 printf("%d\n", m);
