@@ -1,54 +1,24 @@
 #include <stdio.h>
-#include <math.h>
-#include <string.h>
-#include <stdlib.h>
-struct num
-{
-	long long int a;
-	long long int ci;
-	long long int last;
-	long long int cun;
-};
-int cmp(const void*c,const void*b)
-{   
-	num *num1=(num*)c;
-    // struct num *num1=(struct num*)c;
-    struct num *num2=(struct num*)b;
-    if(num1->ci!=num2->ci)
-	    return num2->ci-num1->ci;
-	else if (num1->last!=num2->last)
-	    return num1->last-num2->last;
-	    else return num1->a-num2->a;
-}   
 
-int main()
-{
-	struct num shu[10];
-	long long int i,j;
-	long long int sum=0,tmp;
-	for(i=0;i<10;i++)
-	{scanf("%lld",&shu[i].a);
-	}
+void hanoi(int n, char from, char to, char aux) {
+    if (n == 1) { // 基准条件：当只有一个圆盘时，直接移动
+        printf("Move disk %d from %c to %c\n", n, from, to);
+        return;
+    }
+    // 步骤 1：将 n-1 个圆盘从 from 移到 aux，（借助 to）
+    hanoi(n - 1, from, aux, to);
+    // 步骤 2：将第 n 个圆盘从 from 移到 to
+    printf("Move disk %d from %c to %c\n", n, from, to);
+    // 步骤 3：将 n-1 个圆盘从 aux 移到 to，（借助 from）
+    hanoi(n - 1, aux, to, from);
+}
 
-    for(i=0;i<10;i++)
-    {    shu[i].cun=shu[i].a;
-    	   for(;;)
-		   {   
-		   tmp=shu[i].cun;
-		   sum=0;
-		   while(tmp!=0)
-		   {sum=sum*10+tmp%10;
-		   tmp=tmp/10;
-		   }
-    		if(sum!=shu[i].cun) {
-			shu[i].cun+=sum;shu[i].ci++;}
-    		else {
-			shu[i].last=sum;break;}
-		    }
-    } 
+int main() {
+    int n;
+    printf("Enter the number of disks: ");
+    scanf("%d", &n);
 
-qsort(shu,10,sizeof(struct num),cmp);
-    for(i=0;i<10;i++)
-     printf("%lld %lld %lld\n",shu[i].a,shu[i].ci,shu[i].last);
-	return 0;
+    printf("Steps to solve Tower of Hanoi for %d disks:\n", n);
+    hanoi(n, 'A', 'C', 'B'); // 从 A 移到 C，（借助 B）
+    return 0;
 }

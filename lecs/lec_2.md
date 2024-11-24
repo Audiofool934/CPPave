@@ -1,9 +1,8 @@
-## Lec 1
-
-### Coverage
+## Lec 2
 
 - [ ] [Function](../paves/basics/function.md)
 - [ ] [Pointer](../paves/basics/pointer.md)
+- [ ] [Scope](paves/basics/scope.md)
 
 ---
 
@@ -18,16 +17,17 @@
 ---
 
 - [ ] [Recursion](../paves/methodology/recursion.md)
-- [ ] [Iteration vs. Recursion](../paves/methodology/iteration_vs_recursion.md)
+  - [ ] [*Iteration vs. Recursion](../paves/methodology/iteration_vs_recursion.md)
+
 - [ ] [Divide and Conquer](../paves/methodology/divide_n_conquer.md)
-  - [ ] quick sort
-  - [ ] merge sort
-  - [ ] binary search
-  - [ ] tower of hanoi
+  - [ ] [Tower of Hanoi](../code/examples/tower_of_hanoi.md)
+  - [ ] [Quick Sort](../code/examples/quick_sort.md)
+  - [ ] [Merge Sort](../code/examples/merge_sort.md)
+
 - [ ] [Backtracking](../paves/methodology/backtracking.md)
-  - [ ] maze
-  - [ ] permutation
-  - [ ] n-queens
+  - [ ] [Maze](../code/examples/maze.md)
+  - [ ] [Permutation](../code/examples/permutation.md)
+  - [ ] [N-Queens](../code/examples/n-queens.md)
   - [ ] sudoku
   - [ ] knight tour
 
@@ -35,10 +35,3 @@
 
 - [ ] [Searching](../paves/algorithms/searching.md)
 - [ ] [Sorting](../paves/algorithms/sorting.md)
-
-### Examples
-
-- [ ] [Tower of Hanoi](../code/examples/tower_of_hanoi.md)
-- [ ] [Maze](../code/examples/maze.md)
-- [ ] [N-Queens](../code/examples/n-queens.md)
-- [ ] [Permutation](../code/examples/permutation.md)

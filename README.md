@@ -20,8 +20,9 @@ math 才是越学越难
 - [x] [Array](paves/basics/array.md)
 - [x] [String](paves/basics/string.md)
 - [x] [Struct](paves/basics/struct.md)
-- [ ] [Function](paves/basics/function.md)
 - [ ] [Pointer](paves/basics/pointer.md)
+- [ ] [Function](paves/basics/function.md)
+- [ ] [Scope](paves/basics/scope.md)
 
 ## Methodology
 
