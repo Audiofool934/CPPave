@@ -1,9 +1,21 @@
-def reverse_and_add(n, iterations):
-    for _ in range(iterations):
-        n = n + int(str(n)[::-1])
-    return n
+vocabulary = 'I am Hamlet the prince of Denmark'.split()
+goal = 'the prince am I'.split()
 
-for i in range(46):
-    result = reverse_and_add(196, i)
-    print(f"{i}: {result}")
+def all_stories_of_length(n, vocabulary):
+    if n == 0:
+        yield[]
+    else:
+        for story in all_stories_of_length(n-1, vocabulary):
+            for word in vocabulary:
+                yield story + [word]
+            
+count = 0          
+for index, story in enumerate(all_stories_of_length(len(goal), vocabulary)):
+    count += 1
+    if count < 10:
+        print(index, story)
+    # if story == goal:
+    #     print('Found it!')
+    #     break
+    
     

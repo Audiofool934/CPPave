@@ -11,7 +11,8 @@ struct num
 };
 int cmp(const void*c,const void*b)
 {   
-    struct num *num1=(struct num*)c;
+	num *num1=(num*)c;
+    // struct num *num1=(struct num*)c;
     struct num *num2=(struct num*)b;
     if(num1->ci!=num2->ci)
 	    return num2->ci-num1->ci;

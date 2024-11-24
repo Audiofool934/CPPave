@@ -44,7 +44,7 @@
 - 限时训练的时候一定要 calm down 拿到能达到的分数
 - 
 
-### [《综合练习》](exercises/lec_1/comprehensive.md)
+### [《综合练习》](../code/exercises/lec_1/comprehensive.md)
 
 758	序列最小差
 209	triangel

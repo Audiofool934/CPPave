@@ -131,7 +131,7 @@ $$
 
 ### K近邻算法
 
-<img src="KNN.png" alt="KNN" width="500px">
+<img src="media/KNN.png" alt="KNN" width="500px">
 
 #### 描述：
 给定一组已知类别的样本点以及一个待分类样本点，使用K近邻算法判断待分类样本点所属的类别。

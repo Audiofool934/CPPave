@@ -15,18 +15,19 @@ math 才是越学越难
 
 ## Basic
 
-- [ ] [Data Type](paves/basics/data_type.md)
-- [ ] [IO](paves/basics/io.md)
-- [ ] [Array](paves/basics/array.md) -> 数组
-- [ ] [String](paves/basics/string.md)
-- [ ] [Struct](paves/basics/struct.md)
+- [x] [Data Type](paves/basics/data_type.md)
+- [x] [IO](paves/basics/io.md)
+- [x] [Array](paves/basics/array.md)
+- [x] [String](paves/basics/string.md)
+- [x] [Struct](paves/basics/struct.md)
 - [ ] [Function](paves/basics/function.md)
-- [ ] [Pointer](paves/basics/pointer.md) -> 指针
+- [ ] [Pointer](paves/basics/pointer.md)
 
 ## Methodology
 
 - [ ] [Iteration](paves/methodology/iteration.md)
 - [ ] [Recursion](paves/methodology/recursion.md)
+- [ ] [Iteration vs. Recursion](../paves/methodology/iteration_vs_recursion.md)
 - [ ] [Divide and Conquer](paves/methodology/divide_n_conquer.md)
 - [ ] [Backtracking](paves/methodology/backtracking.md)
 - [ ] [Greedy](paves/methodology/greedy.md)
@@ -34,15 +35,16 @@ math 才是越学越难
 
 ## Data Structure
 
-- [ ] [Array](paves/data_structure/array.md) -> 数据结构（线性表）
-- [ ] [Pointer](paves/data_structure/pointer.md) -> 数据结构（链表）
+- [x] [Array](paves/data_structure/array.md)
+- [ ] [Linked List](paves/data_structure/linked-list.md)
 - [ ] [Stack](paves/data_structure/stack.md)
 - [ ] [Queue](paves/data_structure/queue.md)
 - [ ] [Tree](paves/data_structure/tree.md)
+- [ ] [Graph](paves/data_structure/graph.md)
 
 ## Algorithm
 
 - [ ] [Utility](paves/algorithms/utility.md)
 - [ ] [Time Complexity](paves/algorithms/time_complexity.md)
-- [ ] [Sorting](paves/algorithms/sorting.md)
 - [ ] [Searching](paves/algorithms/searching.md)
+- [ ] [Sorting](paves/algorithms/sorting.md)
