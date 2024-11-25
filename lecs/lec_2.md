@@ -2,8 +2,7 @@
 
 - [x] [Basics](../paves/basics/basics.md)
   - [x] [Pointer(指针)](../paves/basics/pointer.md)
-  - [x] [Function(函数)](../paves/basics/function.md)
-  - [x] [Scope(变量作用域)](../paves/basics/scope.md)
+  - [x] [Function(函数)](../paves/basics/function_n_scope.md)
 
 ---
 

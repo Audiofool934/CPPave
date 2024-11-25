@@ -6,5 +6,5 @@
 - [x] [String](./string.md)
 - [x] [Struct](./struct.md)
 - [x] [Pointer](./pointer.md)
-- [x] [Function](./function.md)
+- [x] [Function](./function_n_scope.md)
 - [x] [Scope](./scope.md)

@@ -22,7 +22,7 @@ math 才是越学越难
   - [x] [String](paves/basics/string.md)
   - [x] [Struct](paves/basics/struct.md)
   - [x] [Pointer](paves/basics/pointer.md)
-  - [x] [Function](paves/basics/function.md)
+  - [x] [Function](paves/basics/function_n_scope.md)
   - [x] [Scope](paves/basics/scope.md)
 
 ## Data Structure
