@@ -1,37 +1,32 @@
 ## Lec 2
 
-- [ ] [Function](../paves/basics/function.md)
-- [ ] [Pointer](../paves/basics/pointer.md)
-- [ ] [Scope](paves/basics/scope.md)
+- [x] [Basics](../paves/basics/basics.md)
+  - [x] [Pointer(指针)](../paves/basics/pointer.md)
+  - [x] [Function(函数)](../paves/basics/function.md)
+  - [x] [Scope(变量作用域)](../paves/basics/scope.md)
 
 ---
 
-- [x] [Array](../paves/data_structure/array.md)
-- [ ] [Linked List](../paves/data_structure/linked-list.md)
-- [ ] [Stack](../paves/data_structure/stack.md)
-- [ ] [Queue](../paves/data_structure/queue.md)
+- [ ] [Data Structure(数据结构)](../paves/data_structure/data_structure.md)
+  - [x] [Array(数组)](../paves/data_structure/array.md)
+  - [x] [Linked List(链表)](../paves/data_structure/linked-list.md)
 
-- [ ] [Tree](../paves/data_structure/tree.md)
-- [ ] [Graph](../paves/data_structure/graph.md)
+  - [x] [Stack(栈)](../paves/data_structure/stack.md)
+  - [x] [Queue(队列)](../paves/data_structure/queue.md)
 
----
-
-- [ ] [Recursion](../paves/methodology/recursion.md)
-  - [ ] [*Iteration vs. Recursion](../paves/methodology/iteration_vs_recursion.md)
-
-- [ ] [Divide and Conquer](../paves/methodology/divide_n_conquer.md)
-  - [ ] [Tower of Hanoi](../code/examples/tower_of_hanoi.md)
-  - [ ] [Quick Sort](../code/examples/quick_sort.md)
-  - [ ] [Merge Sort](../code/examples/merge_sort.md)
-
-- [ ] [Backtracking](../paves/methodology/backtracking.md)
-  - [ ] [Maze](../code/examples/maze.md)
-  - [ ] [Permutation](../code/examples/permutation.md)
-  - [ ] [N-Queens](../code/examples/n-queens.md)
-  - [ ] sudoku
-  - [ ] knight tour
+  - [x] [Tree(树)](../paves/data_structure/tree.md)
 
 ---
 
-- [ ] [Searching](../paves/algorithms/searching.md)
-- [ ] [Sorting](../paves/algorithms/sorting.md)
+- [x] [Recursion(递归)](../paves/algorithms/recursion.md)
+  - [x] [Iteration vs. Recursion(递推 vs. 递归)](../paves/algorithms/iteration_vs_recursion.md)
+
+- [x] [Divide and Conquer(分而治之)](../paves/algorithms/divide_n_conquer.md)
+  - [x] [Tower of Hanoi(汉诺塔问题)](../code/examples/tower_of_hanoi.md)
+  - [x] [Quick Sort(快速排序)](../code/examples/quick_sort.md)
+  - [x] [Merge Sort(归并排序)](../code/examples/merge_sort.md)
+
+- [ ] [Backtracking(回溯)](../paves/algorithms/backtracking.md)
+  - [ ] [Maze(迷宫问题)](../code/examples/maze.md)
+  - [ ] [Permutation(排列问题)](../code/examples/permutation.md)
+  - [ ] [N-Queens(n皇后问题)](../code/examples/n-queens.md)
