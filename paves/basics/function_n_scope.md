@@ -146,7 +146,7 @@ output:
 
 下面主要对**局部变量**、**全局变量**和**静态局部变量**，以及**块作用域**进行回顾与讨论
 
-#### 2.1. **局部变量（Local Variables）**
+#### 2.1. 局部变量（Local Variables）
 - **定义**：在函数或代码块内部定义的变量
 - **作用域**：**仅在函数或代码块内部有效**
 - **存储**：通常存储在**栈（stack）**中，函数执行完后变量**自动释放**
@@ -168,7 +168,7 @@ int main() {
 }
 ```
 
-#### 2.2. **全局变量（Global Variables）**
+#### 2.2. 全局变量（Global Variables）
 - **定义**：在所有函数外部定义的变量
 - **作用域**：从变量定义位置开始到文件结尾，整个程序都可访问
 - **存储**：存储在全局/静态内存区
@@ -193,9 +193,9 @@ int main() {
 }
 ```
 
-#### 2.3. **静态局部变量（Static Local Variables）**
+#### 2.3. 静态局部变量（Static Local Variables）
 
-关于`static`关键字，可参考[这里](https://www.runoob.com/w3cnote/c-static-effect.html)
+关于`static`关键字，可参考[这里](https://www.runoob.com/w3cnote/c-static-effect.html)以及[这个回答](https://stackoverflow.com/questions/572547/what-does-static-mean-in-c)
 
 - **定义**：使用 `static` 关键字修饰的局部变量
 - **作用域**：仅在定义它的函数或代码块中有效
@@ -220,7 +220,7 @@ int main() {
 }
 ```
 
-#### 2.4. **块作用域（Block Scope）**
+#### 2.4. 块作用域（Block Scope）
 - **定义**：在 `{}` 花括号中定义的变量。
 - **作用域**：仅在花括号内部有效。
 - **特点**：块作用域内的变量在块结束后销毁。
