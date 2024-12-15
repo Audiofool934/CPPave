@@ -17,8 +17,12 @@ Given my limited knowledge and experience, there may be mistakes or misunderstan
 These notes are based on the following sources and references: (highly recommended if you have the time to explore further):
 
 [1] Erickson, J. (2019). *Algorithms* (1st ed.). Self-published. Retrieved from http://jeffe.cs.illinois.edu/teaching/algorithms
+
 [2] Hello 算法. (n.d.). *Hello Algo*. Retrieved December 15, 2024, from https://www.hello-algo.com
+
 [3] 菜鸟教程. (n.d.). *Runoob.com*: 菜鸟教程. Retrieved December 15, 2024, from https://www.runoob.com
+
+
 
 <!-- 梳理：C++学习路径❌，并非路径！
 入口有很多，开始会overwhelmed，但是后面回过头来看，往往会不一样，有顿悟的感觉！
@@ -41,19 +45,7 @@ math 才是越学越难
 
 ## Data Structures
 
-关于数据结构的概要介绍，可参考[Hello 算法](https://www.hello-algo.com)中的[数据结构](https://www.hello-algo.com/chapter_data_structure/classification_of_data_structure)部分
-
-### 🏗️ Work in Progress
-
-- [ ] [Array (数组)](paves/data_structure/array.md)
-- [ ] [Linked List (链表)](paves/data_structure/linked-list.md)
-
-- [ ] [Stack (栈)](paves/data_structure/stack.md)
-- [ ] [Queue (队列)](paves/data_structure/queue.md)
-
-- [ ] [Tree (树)](paves/data_structure/tree.md)
-
-- [ ] [Graph (图)](paves/data_structure/graph.md)
+### 🏗️ [Work in progress](paves/data_structure/data_structure.md)
 
 ## Algorithm
 
