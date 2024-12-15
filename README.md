@@ -38,14 +38,14 @@ math 才是越学越难
 - [x] [Data Type (数据类型)](paves/basics/data_type.md)
 - [x] [IO (输入输出)](paves/basics/io.md)
 - [x] [Array (数组)](paves/basics/array.md)
-- [x] [String (字符串)](paves/basics/string.md)
+- [x] [String (字符串)](paves/basics/string_c.md)
 - [x] [Struct (结构体)](paves/basics/struct.md)
 - [x] [Pointer (指针)](paves/basics/pointer.md)
 - [x] [Function(and scope) (函数以及变量作用域)](paves/basics/function_n_scope.md)
 
 ## Data Structures
 
-### 🏗️ [Work in progress](paves/data_structure/data_structure.md)
+### 🏗️ [Work in progress](./paves/data_structure/data_structure.md)
 
 ## Algorithm
 

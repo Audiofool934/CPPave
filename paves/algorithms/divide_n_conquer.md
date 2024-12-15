@@ -58,7 +58,7 @@ void mergeSort(int arr[], int left, int right) {
 
 #### sources and readings
 
-- [Hello 算法 - 归并排序](https://www.hello-algo.com/chapter_sorting/merge_sort/)4
+- [Hello 算法 - 归并排序](https://www.hello-algo.com/chapter_sorting/merge_sort/)
 
 ### 典例: Quick Sort (快速排序)
 
