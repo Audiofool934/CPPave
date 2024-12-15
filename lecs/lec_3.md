@@ -1,94 +1,63 @@
-贪心
+## Lec 3
 
-动态规划
+## Data Structure
 
-动态规划（DP）和贪心算法（Greedy Algorithm）有一定关系，但它们是解决问题的两种不同方法，适用的场景和核心思想不同。以下是它们之间的对比和关系：
+- [ ] [Data Structure](./paves/data_structure/data_structure.md)
 
-1. 相似之处
+  - [x] [Array](paves/data_structure/array.md)
+  - [x] [Linked List](paves/data_structure/linked-list.md)
 
-	•	都通过局部优化构建全局解：
-	•	动态规划通过求解子问题的最优解，逐步构建全局解。
-	•	贪心算法每次选择当前看似最优的决策，希望最终构建出全局解。
-	•	都解决优化问题：
-	•	两者都广泛用于求解最大值、最小值、最短路径等优化问题。
+  - [x] [Stack](paves/data_structure/stack.md)
+  - [x] [Queue](paves/data_structure/queue.md)
 
-2. 核心区别
+  - [x] [Tree](paves/data_structure/tree.md)
 
-动态规划和贪心算法的本质区别在于问题的性质：
+  - [x] [Graph](paves/data_structure/graph.md)
 
-动态规划：解决复杂的最优子结构问题
+## Algorithm
 
-	•	特点：
-	•	动态规划适用于 存在重叠子问题 和 最优子结构 的问题。
-	•	它需要通过 状态转移方程 考虑所有可能的子问题解。
-	•	核心思想：
-	•	逐步保存子问题的解，确保每个子问题的最优解在递推时都可用。
-	•	最终通过这些子问题的解递推出全局最优解。
-	•	计算路径：
-	•	动态规划会保留多种可能性，通过递归或表格逐步推导最优解。
-	•	优点：
-	•	保证最终解是全局最优解。
-	•	可以通过记录子问题解来解决问题的复杂性。
-	•	代价：
-	•	时间和空间复杂度较高（通常需要 ￼ 或更多）。
+- [x] [Recursion(递归)](./paves/algorithms/recursion.md)
+	回顾 takeaway: 
+	1. 重要概念: reduction，递归是特殊的reduction，将问题X转化为更小的问题X'，直到问题X'可以直接解决(base cases)；
+	2. 这个过程中，我们需要关心的只有 1. reduction 2. base cases；
+	3. 理解递归内部：递归调用栈、递归树；
+	- Tower of Hanoi
+	4. Divide and Conquer: 递归的一种特殊形式，将问题分解为更小的子问题，然后合并子问题的解；Quick Sort & Merge Sort
 
-贪心算法：每步都选择局部最优解
+   关于分治问题的补充：
+   [text](<../lib/C/YOJ大神/递归/D&C/785 平面最近点对.cpp>)
 
-	•	特点：
-	•	贪心算法适用于 贪心选择性质 的问题，即局部最优解一定能导向全局最优解。
-	•	它通常无法回溯或存储状态。
-	•	核心思想：
-	•	在问题的每一步做出一个看似最优的决策，而不需要考虑之前或之后的步骤。
-	•	计算路径：
-	•	贪心算法直接选择当前的最优解，不会存储或比较其他子问题的结果。
-	•	优点：
-	•	简单高效，时间复杂度通常较低（如 ￼ 或 ￼）。
-	•	缺点：
-	•	并非所有问题都适用，因为可能导致最终解不是全局最优解。
+- [ ] [Backtracking(回溯)](../paves/algorithms/backtracking.md)
+  - [ ] [N-Queens(n皇后问题)](./code/examples/n-queens.md)
+  - [ ] [Subset Sum(子集和问题)](./code/examples/subset_sum.md)
+  - [ ] [Longest Increasing Subsequence(最长递增子序列)](./code/examples/longest_increasing_subsequence.md)
+  - [ ] [Text Segmentation(分词)](./code/examples/text_segmentation.md)
+  - more examples
+  - [ ] [Permutation(排列问题)](./code/examples/permutation.md)
+    - [ ] [125 行列式计算](<../lib/C/YOJ大神/递归/DFS/125 行列式计算.cpp>)
+    - [ ] [143 数列合并](<../lib/C/YOJ大神/递归/DFS/143 数列合并.cpp>)
+    - [ ] [202 分书问题](<../lib/C/YOJ大神/递归/DFS/202 分书问题.cpp>)
+    - [ ] [247 匹配Wild号码](./code/examples/wild_card_matching.md)
+  - [ ] [126 Travel]()
 
-3. 动态规划和贪心算法的适用场景
+- [ ] [Dynamic Programming(动态规划)](../paves/algorithms/dynamic_programming.md)
+  - [ ] [Fibonacci Sequence(斐波那契数列)](./code/examples/fibonacci_sequence.md)
+  - [ ] [Subset Sum(子集和问题)](./code/examples/subset_sum.md)
+  - [ ] [Longest Increasing Subsequence(最长递增子序列)](./code/examples/longest_increasing_subsequence.md)
+  - [ ] [Edit Distance(编辑距离)](./code/examples/edit_distance.md)
+  - [ ] [摘桃子](<../lib/C/YOJ大神/递推/DP/117 摘桃子.cpp>)
 
-动态规划适用问题：
+- [ ] [Depth-First Search(DFS)](./paves/algorithms/dfs.md)
+  - [ ] [Whatever-First Search](./paves/algorithms/bfs.md)
+  - [ ] [DFS, Memoization, and DP](./paves/algorithms/dfs_memoization_dp.md)
+  - [ ] [124 滑雪]
+  - [ ] [Maze(迷宫问题)](./code/examples/maze.md)
+    - [ ] 如果要返回迷宫的所有路径，就变成了标准的回溯问题！
+  - [ ] [最大岛屿](<../lib/C/YOJ大神/递归/DFS/backtracking/163 最大岛屿.cpp>)
 
-动态规划适用于最优子结构 + 重叠子问题的场景。例如：
-	•	矩阵路径问题（如当前问题），因为需要同时考虑“从左边来”还是“从上边来”的最优选择。
-	•	背包问题（Knapsack Problem）。
-	•	最长公共子序列（Longest Common Subsequence, LCS）。
-	•	图的最短路径（Floyd-Warshall算法）。
 
-贪心算法适用问题：
 
-贪心算法适用于贪心选择性质的场景。例如：
-	•	找零钱问题：每次选择面值最大的硬币。
-	•	最小生成树问题（Prim算法、Kruskal算法）。
-	•	活动选择问题：每次选择结束时间最早的活动。
-	•	Huffman编码：每次选择最小频率的两项合并。
+## Reminder
 
-4. 两者关系：动态规划 vs 贪心算法
-
-动态规划和贪心算法有交集，但贪心算法是动态规划的一种特殊情况。
-	•	如果一个问题的每一步局部最优解都一定能导向全局最优解，那么可以用贪心算法替代动态规划，减少计算量。例如：
-	•	图中的Dijkstra算法其实是一种贪心算法，它逐步选择离起点最近的未访问节点（这一步是贪心），最终找到最短路径。
-	•	如果局部最优解不一定导向全局最优解，就必须用动态规划。例如：
-	•	在背包问题中，每次选择重量最大的物品未必是最优解，必须用动态规划。
-
-5. 用动态规划还是贪心算法解决当前问题？
-
-当前问题（棋盘路径最大宝物值）必须用动态规划，而不能用贪心算法，原因如下：
-	•	贪心选择不成立：
-	•	如果每次贪心选择最大宝物的方向，可能错过其他路径的更优解。例如：
-
-1 2 3
-4 5 1
-
-从左上角到右下角，贪心算法会选择路径 ￼，而忽略了更优的路径 ￼。
-
-	•	动态规划保证全局最优：
-	•	动态规划会比较从左边和上边来的所有路径，确保选择最优解。
-
-总结
-
-	•	贪心算法：适用于局部最优一定导向全局最优的情况，效率高，但适用问题有限。
-	•	动态规划：适用于复杂问题，通过比较多个子问题的解递推出全局最优解，通用性强，但效率相对较低。
-	•	当前问题 必须使用动态规划，因为局部最优解不能保证全局最优解。
-
+典例——从 0-90-100
+- [ ] 87 图像处理	

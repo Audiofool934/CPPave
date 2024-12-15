@@ -16,9 +16,7 @@ void go(int x, int y, const int n, const int m, int** maze, int** fp, bool* yes)
     go(x, y + 1, n, m, maze, fp, yes);
     go(x - 1, y, n, m, maze, fp, yes);
     go(x, y - 1, n, m, maze, fp, yes);
-    fp[x][y] = 0;
 }
-
 
 
 int main()

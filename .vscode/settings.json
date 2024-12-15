@@ -63,6 +63,7 @@
         "concepts": "c",
         "functional": "c",
         "iterator": "c",
-        "utility": "c"
+        "utility": "c",
+        "stdbool.h": "c"
     }
 }
