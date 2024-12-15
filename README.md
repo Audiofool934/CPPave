@@ -12,7 +12,7 @@
 
 **Algorithms:** This section focuses on core algorithmic concepts, including recursion, divide and conquer, backtracking, dynamic programming, depth-first search, and searching and sorting techniques.
 
-Given my limited knowledge and experience, there may be mistakes or misunderstandings. If you notice any errors or have suggestions for improvement, please feel free to reach out. Also thanks for LLMs' help.
+Given my limited knowledge and experience, there may be mistakes or misunderstandings. If you notice any errors or have suggestions for improvement, please feel free to reach out. Special thanks to LLMs' assistance XD.
 
 These notes are based on the following sources and references: (highly recommended if you have the time to explore further):
 
